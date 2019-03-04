@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: sI7Upv2bUw5a2J5l4OvEP+T1xKTAs3nFLLqM3mPRH47kzWv9Y/SaWwDSH31rN3MePIfBcpx4BamBb98r4uu7nAVVM0iPLdI+iKdY4u5NoT9Impg3u4QI+zX/EOeJ1R02aRgau/V5lG7n4SqdspqS47a6ISWQIRjcAVsMr1p4m8OOxaxZb7r4hFCVbaXG1PZTGHrD5gp6nLP1/0usFtKOgGaxqLSZh/ZB+TsGtpHy6PlVLGp8ghhNfJ11C+0cME0Wepzl6rUz+vKT6w62H4axmx5i5Rfoaq3WgMlyUo/NEaED5GuPr6VBYanro6NZM+hbbUm2m26z7UsGdNb9pPhOicULiZgduQfw6jwvZgwz9La+iWOxPVSkPwkYagGoRPlR1O5zjeJMKzoYXgiWoegBTSqKISTRNNWX86P3XaB1gXR09pYdRT7Oxz9xa/PnvWNSBEwCn7gj7QsYcG5ml6DpIYkCON/bBRpv8L4/Tbdfbh/rvHW6f/hoBEmvaol9Vr5rXrzvolDpejHKy4zMiQO2YWEYkGQnblqyWxFMiyckzOYfXoaM+C+46FXJ5Nd8Afv87OhENfz23xcHyISxmv+iiF6c9OBmDJmVFmT9MqKrnZDZrVko10QDEMdH6uwVCmuyXGIA52PJitNDU7NDQyesfCfq0SaflCtTEtKAp9khx2c=
+  app: serene-waters-14249
+  on:
+    repo: mchinn614/node-shopping-list-integration-tests
